@@ -62,6 +62,7 @@ func main() {
 			"/usr/share/GeoIP/",
 			"/usr/local/share/GeoIP/",
 			"/var/lib/GeoIP/",
+			"/opt/homebrew/var/GeoIP",
 		}
 		for _, path := range searchPath {
 			matches, err := filepath.Glob(filepath.Join(path, "*.mmdb"))
