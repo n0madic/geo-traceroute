@@ -1,3 +1,4 @@
 *.csv
 *.mmdb
 geo-traceroute
+dist/
