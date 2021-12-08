@@ -10,6 +10,8 @@ builds:
     goarch: 386
   - goos: windows
     goarch: 386
+  - goos: windows
+    goarch: arm64
 archives:
 - replacements:
     darwin: MacOSX
